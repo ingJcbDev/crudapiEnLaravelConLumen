@@ -44,3 +44,13 @@ php -S localhost:8000 -t public
 ```
 php artisan make:migration libros --create=libros
 ```
+
+## Para migrar a el origin de datos
+```
+php artisan migrate
+```
+
+Para ejecutar la terminal 
+```
+ctrl + shift + p
+```

@@ -40,4 +40,12 @@ class LibroController extends Controller{
         return response()->json($nuevoNombre);
     }
 
+    public function ver($id){
+        
+        $datosLibro = new Libro;
+        $datosEncontrados = $datosLibro->find($id);
+
+        return response()->json($datosEncontrados);
+    }
+
 }

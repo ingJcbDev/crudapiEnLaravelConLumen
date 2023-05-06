@@ -22,3 +22,25 @@ Si descubre una vulnerabilidad de seguridad dentro de Lumen, envíe un correo ele
 ## Licencia
 
 El marco Lumen es un software de código abierto con licencia de [licencia MIT] (https://opensource.org/licenses/MIT).
+
+
+
+## Installing Lumen
+
+```
+composer create-project --prefer-dist laravel/lumen blog
+```
+
+
+## Serving Your Application
+
+
+```
+php -S localhost:8000 -t public
+```
+
+## Crear una migracion
+
+```
+php artisan make:migration libros --create=libros
+```

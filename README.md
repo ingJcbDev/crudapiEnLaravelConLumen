@@ -54,3 +54,17 @@ Para ejecutar la terminal
 ```
 ctrl + shift + p
 ```
+
+Antes de ejecutar esos comandos en la carpeta app se debe crear la carpeta models
+
+Datos con Eloquent
+Esto lo que va hacer es aceder a la base de datos de forma muy sencilla 
+
+C:\xampp\htdocs\DEV\crudapi\bootstrap\app.php
+
+y descomentamos la linea 28
+
+```
+ $app->withEloquent();
+```
+

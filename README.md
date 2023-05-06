@@ -5,20 +5,20 @@
 [![Latest Stable Version](https://poser.pugx.org/laravel/lumen-framework/v/stable.svg)](https://packagist.org/packages/laravel/lumen-framework)
 [![License](https://poser.pugx.org/laravel/lumen-framework/license.svg)](https://packagist.org/packages/laravel/lumen-framework)
 
-Laravel Lumen is a stunningly fast PHP micro-framework for building web applications with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Lumen attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as routing, database abstraction, queueing, and caching.
+Laravel Lumen es un micro-framework PHP increíblemente rápido para crear aplicaciones web con una sintaxis expresiva y elegante. Creemos que el desarrollo debe ser una experiencia agradable y creativa para que sea realmente satisfactorio. Lumen intenta eliminar el dolor del desarrollo al facilitar las tareas comunes que se utilizan en la mayoría de los proyectos web, como el enrutamiento, la abstracción de la base de datos, la cola y el almacenamiento en caché.
 
-## Official Documentation
+## Documentación Oficial
 
-Documentation for the framework can be found on the [Lumen website](https://lumen.laravel.com/docs).
+La documentación del marco se puede encontrar en el [sitio web de Lumen] (https://lumen.laravel.com/docs).
 
-## Contributing
+## Contribuyendo
 
-Thank you for considering contributing to Lumen! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+¡Gracias por considerar contribuir con Lumen! La guía de contribución se puede encontrar en la [documentación de Laravel] (https://laravel.com/docs/contributions).
 
-## Security Vulnerabilities
+## Vulnerabilidades de seguridad
 
-If you discover a security vulnerability within Lumen, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+Si descubre una vulnerabilidad de seguridad dentro de Lumen, envíe un correo electrónico a Taylor Otwell a taylor@laravel.com. Todas las vulnerabilidades de seguridad se abordarán de inmediato.
 
-## License
+## Licencia
 
-The Lumen framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+El marco Lumen es un software de código abierto con licencia de [licencia MIT] (https://opensource.org/licenses/MIT).

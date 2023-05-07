@@ -22,3 +22,5 @@ $router->post('/libros', 'LibroController@guardar');
 $router->get('/libros/{id}', 'LibroController@ver');
 
 $router->delete('/libros/{id}', 'LibroController@eliminar');
+
+$router->post('/libros/{id}', 'LibroController@actualizar');

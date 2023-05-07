@@ -48,4 +48,23 @@ class LibroController extends Controller{
         return response()->json($datosEncontrados);
     }
 
+    public function eliminar($id){
+        
+        $datosLibro = Libro::find($id);
+
+        // Si los tados del libro existen
+        if($datosLibro){
+            $rutaArchivo = base_path('public').$datosLibro->imagen;
+            // si el archivo existe
+            if(file_exists($rutaArchivo)){
+                // Borrar
+                unlink($rutaArchivo);
+            }
+            $datosLibro->delete();
+        }
+
+
+        return response()->json("Registro Borrado");
+    }
+
 }

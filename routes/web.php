@@ -15,6 +15,11 @@ $router->get('/', function () use ($router) {
     return $router->app->version();
 });
 
+
+$router->get('/hola', function () use ($router) {
+    return "<h1>Hola api</h1>";
+});
+
 $router->get('/libros', 'LibroController@index');
 
 $router->post('/libros', 'LibroController@guardar');

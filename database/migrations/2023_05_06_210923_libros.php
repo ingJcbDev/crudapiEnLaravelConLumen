@@ -13,7 +13,7 @@ class Libros extends Migration
      */
     public function up()
     {
-        Schema::create('libros', function (Blueprint $table) {
+        Schema::create('biblioteca.libros', function (Blueprint $table) {
             $table->id();
             $table->string('titulo', 250);
             $table->string('imagen', 2500);
@@ -28,6 +28,6 @@ class Libros extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('libros');
+        Schema::dropIfExists('biblioteca.libros');
     }
 }

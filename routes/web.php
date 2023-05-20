@@ -29,3 +29,5 @@ $router->get('/libros/{id}', 'LibroController@ver');
 $router->delete('/libros/{id}', 'LibroController@eliminar');
 
 $router->post('/libros/{id}', 'LibroController@actualizar');
+
+$router->put('/libros/{id}', 'LibroController@actualizar'); // pero no funciono
